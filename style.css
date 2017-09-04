@@ -2,7 +2,7 @@
   width: 400px;
   height: 400px;
   position: relative;
-  background: yellow;
+  background-image: url("images/pokemon-tiles.png");
 }
 #myAnimation {
   width: 50px;
@@ -12,8 +12,12 @@
 }
 
 #pokemon {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   position: absolute;
   /*background: blue;*/
+}
+body {
+
+
 }
