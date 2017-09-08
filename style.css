@@ -1,6 +1,6 @@
 #myContainer {
-  width: 400px;
-  height: 400px;
+  width: 1000px;
+  height: 1000px;
   position: relative;
   background-image: url("images/pokemon-tiles.png");
 }
@@ -9,6 +9,7 @@
   height: 50px;
   position: absolute;
   background: red;
+
 }
 
 #pokemon {
@@ -17,7 +18,18 @@
   position: absolute;
   /*background: blue;*/
 }
-body {
 
+#explode {
+  position:absolute;
+  width: 75px;
+  height: 75px;
+}
 
+.explode-hide {
+  display: none;
+
+}
+
+.explode-show {
+  display: inline;
 }
